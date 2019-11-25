@@ -1,0 +1,5 @@
+CREATE TABLE `countries` (
+  `id` int(11) NOT NULL,
+  `country_code` varchar(2) NOT NULL DEFAULT '',
+  `country_name` varchar(100) NOT NULL DEFAULT ''
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
